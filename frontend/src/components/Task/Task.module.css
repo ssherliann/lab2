@@ -1,0 +1,49 @@
+.taskContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 320px;
+    height: 320px;
+  }
+  
+  .deleteButton {
+    color: black;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .updateButton {
+    color: black;
+    display: flex;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    margin-right: 10px;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .deleteButton:hover, .updateButton:hover {
+    background-color: #2d82dd;
+    color: #fff;
+  }
+
+.tasksButtons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description {
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 100px;
+    overflow-y: auto;
+}

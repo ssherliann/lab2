@@ -1,0 +1,33 @@
+/* Header.module.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #51a5ff;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Добавляем тень */
+    margin-bottom: 20px; /* Добавляем отступ снизу */
+}
+
+.title {
+    margin: 0;
+    font-size: 24px; /* Задаем размер заголовка */
+    font-weight: bold; /* Добавляем жирность текста */
+}
+
+.buttonLogOut {
+    padding: 8px 16px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #51a5ff;
+    transition: background-color 0.3s, transform 0.2s; /* Плавный переход и анимация */
+}
+
+.buttonLogOut:hover {
+    background-color: #4199f7; /* Цвет при наведении */
+    transform: scale(1.05); /* Легкое увеличение при наведении */
+}

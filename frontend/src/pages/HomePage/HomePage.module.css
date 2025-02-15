@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px;
+}
+
+.welcomeText {
+    max-width: 750px;
+    font-size: 20px;
+}
+
+.autorizationMenu {
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 50px;
+    background-color: #4A90E2;
+    color: aliceblue;
+    height: 650px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.autorizationButtons {
+    margin: 100px auto auto ;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.autorizationButtonRegister, .autorizationButtonLogin {
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #b7d8ff;
+}
+
+.autorizationButtonRegister:hover, .autorizationButtonLogin:hover {
+    background-color: #86acd8;
+}
